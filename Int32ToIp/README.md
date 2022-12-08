@@ -7,6 +7,7 @@
 - 4th octet `1` has the binary representation: `00000001`
 
 So `192.168.0.1` == `11000000.10101000.00000000.00000001`, we can represent it as the unsigned 32-bit number: `3232235521`
+
 This function taking a 32-bit number, converting it to binary and building IPv4.
 
 ## Examples
