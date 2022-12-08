@@ -22,7 +22,8 @@ func Int32ToIp(n32 uint32) (ip string) {
 }
 
 func main() {
-	//For example, transforming 32 bit number "2149583361" to IPv4 Address
+	// For example, transforming 32-bit number "2149583361" to IPv4 Address
 	result := Int32ToIp(2149583361)
+	// Output ==> "128.32.10.1"
 	fmt.Print(result)
 }
